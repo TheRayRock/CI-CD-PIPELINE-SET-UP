@@ -1,7 +1,15 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Clients from "./components/Clients";
+import Footer from "./components/Footer";
+
 export default function Home() {
   return (
-    <div className="h-screen flex items-center justify-center bg-black">
-      <h1 className="text-5xl font-bold text-green-500">Tailwind Working 🚀</h1>
-    </div>
+    <main>
+      <Navbar />
+      <Hero />
+      <Clients />
+      <Footer />
+    </main>
   );
 }
