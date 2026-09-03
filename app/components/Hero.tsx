@@ -6,7 +6,7 @@ export default function Hero() {
       <div>
         <h1 className="text-6xl font-bold leading-tight text-gray-800">
           Lessons and insights <br />
-          <span className="text-green-500">from 8 years</span>
+          <span className="text-green-500">from 12 years</span>
         </h1>
 
         <p className="mt-6 text-gray-500">
